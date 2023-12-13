@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# snd-frontend
-=======
 # snd-frontend
 
 ## Project setup
@@ -25,4 +22,3 @@ pnpm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 13ecfd5 (initial commit)

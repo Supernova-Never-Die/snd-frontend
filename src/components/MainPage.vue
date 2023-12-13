@@ -28,8 +28,8 @@
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Total Value Locked (TVL)</h5>
-            <p class="card-text">TVL: $0.00 (API not integrated yet)</p>
+            <h5 class="card-title center-text">Total Value Locked (TVL)</h5>
+            <p class="card-text center-text">TVL: $0.00 (API not integrated yet)</p>
           </div>
         </div>
       </div>
@@ -38,41 +38,43 @@
     <!-- Row for WEMIX Price and History Cards -->
     <div class="row">
       <!-- First WEMIX Price Card -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+      <div class="col-md-6 mb-3">        <div class="card">
           <div class="card-body">
-            <h5 class="card-title">WEMIX Price</h5>
+            <h5 class="card-title">Total Wemix</h5>
+            <p class="card-text">staked Wemix: 123,123 (API not integrated yet)</p>
             <p class="card-text">Price: $0.00 (API not integrated yet)</p>
-            <button class="btn btn-primary">Deposit</button>
-            <button class="btn btn-secondary">Withdraw</button>
+            <div class="right-align-buttons">
+              <button class="btn btn-primary">Stake</button>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Second WEMIX Price Card -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+      <div class="col-md-6 mb-3">        <div class="card">
           <div class="card-body">
-            <h5 class="card-title">WEMIX Price</h5>
+            <h5 class="card-title">Total SND</h5>
             <p class="card-text">Price: $0.00 (API not integrated yet)</p>
-            <button class="btn btn-primary">Deposit</button>
-            <button class="btn btn-secondary">Withdraw</button>
+            <div class="right-align-buttons">
+              <button class="btn btn-primary">Mint</button>
+            </div>
           </div>
         </div>
       </div>
 
+<!-- Row for WEMIX Price History -->
+<div class="row">
       <!-- WEMIX Price History Card -->
-      <div class="col-md-4">
+      <div class="col-12">
         <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
           <div class="card-body">
             <h5 class="card-title">WEMIX Price History</h5>
             <p class="card-text">Graph (API not integrated yet)</p>
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -85,4 +87,12 @@ export default {
 
 <style>
 /* Custom styles can be added here */
+.center-text {
+  text-align: center;
+}
+
+.right-align-buttons {
+  display: flex;
+  justify-content: flex-end; /* This will align the child elements (your buttons) to the right */
+}
 </style>
