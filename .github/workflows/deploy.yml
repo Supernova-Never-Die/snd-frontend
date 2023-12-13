@@ -15,7 +15,10 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '14'  # Set this to the node version you are using
+        node-version: '16'  # Set this to the node version you are using
+
+    - name: Install pnpm
+      run: npm install -g pnpm
 
     - name: Install Dependencies
       run: pnpm install  # Or pnpm install, if you're using pnpm
