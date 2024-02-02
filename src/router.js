@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import MainPage from './components/MainPage.vue'; // Assume your main page component is named MainPage.vue
-import InterestPage from './components/InterestPage.vue'; // This will be your new page for interest rates
+import MainPage from './components/Pages/MainPage.vue';
+import InterestPage from './components/Pages/InterestPage.vue';
+import DashboardComponent from './components/Pages/DashboardPage.vue'; // This will be your new page for the dashboard
 
 const routes = [
   { path: '/', component: MainPage },
   { path: '/main', component: MainPage },
   { path: '/interest', component: InterestPage },
+  { path: '/dashboard', component: DashboardComponent },
 ];
 
 const router = createRouter({
