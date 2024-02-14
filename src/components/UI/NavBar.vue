@@ -15,7 +15,7 @@
                         <a class="nav-link" href="/dashboard">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link 3</a>
+                        <a class="nav-link" href="/test">testPage</a>
                     </li>
                 </ul>
                 <div>

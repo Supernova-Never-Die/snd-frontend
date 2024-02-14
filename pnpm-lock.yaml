@@ -17,6 +17,9 @@ dependencies:
   gh-pages:
     specifier: ^6.1.0
     version: 6.1.0
+  pnpm:
+    specifier: ^8.15.2
+    version: 8.15.2
   vue:
     specifier: ^3.2.13
     version: 3.3.11(typescript@5.3.3)
@@ -5533,6 +5536,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+
+  /pnpm@8.15.2:
+    resolution: {integrity: sha512-CtSEkTkCu/5zmI7z2NHFEK6wxlSDur3EBYnBpmNc+GA5vDY5veOdFKPMngJx5/rRx/qJHEfKfH8esGv/3MOTnw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
 
   /popper.js@1.16.1:
     resolution: {integrity: sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==}

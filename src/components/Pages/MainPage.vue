@@ -9,7 +9,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title center-text">Total Value Locked (TVL)</h5>
-              <p class="card-text center-text">TVL: $0.00 (API not integrated yet)</p>
+              <p class="card-text center-text">TVL: $0.00</p>
             </div>
           </div>
         </div>
@@ -21,11 +21,11 @@
         <div class="col-md-6 mb-3">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Total Wemix</h5>
+              <h5 class="card-title">Total Collateral</h5>
               <p class="card-text">staked Wemix: 123,123 (API not integrated yet)</p>
               <p class="card-text">Price: $0.00 (API not integrated yet)</p>
               <div class="right-align-buttons">
-                <button class="btn btn-primary">Stake</button>
+                <button class="btn btn-primary">Deposit</button>
               </div>
             </div>
           </div>
@@ -35,10 +35,12 @@
         <div class="col-md-6 mb-3">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Total SND</h5>
+              <h5 class="card-title">Total Borrow</h5>
+              <p class="card-text">staked Wemix: 123,123 (API not integrated yet)</p>
+
               <p class="card-text">Price: $0.00 (API not integrated yet)</p>
               <div class="right-align-buttons">
-                <button class="btn btn-primary">Mint</button>
+                <button class="btn btn-primary">Borrow</button>
               </div>
             </div>
           </div>
@@ -50,7 +52,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">WEMIX Price History</h5>
+                <h5 class="card-title">Supernova TVL History</h5>
                 <p class="card-text">Graph (API not integrated yet)</p>
                 <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
               </div>
