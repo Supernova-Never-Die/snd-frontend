@@ -26,6 +26,9 @@ dependencies:
   vue-router:
     specifier: ^4.2.5
     version: 4.2.5(vue@3.3.11)
+  vuex:
+    specifier: ^4.0.2
+    version: 4.0.2(vue@3.3.11)
   web3:
     specifier: ^4.4.0
     version: 4.4.0(typescript@5.3.3)
@@ -7056,6 +7059,15 @@ packages:
       '@vue/server-renderer': 3.3.11(vue@3.3.11)
       '@vue/shared': 3.3.11
       typescript: 5.3.3
+
+  /vuex@4.0.2(vue@3.3.11):
+    resolution: {integrity: sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q==}
+    peerDependencies:
+      vue: ^3.0.2
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      vue: 3.3.11(typescript@5.3.3)
+    dev: false
 
   /watchpack@2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}

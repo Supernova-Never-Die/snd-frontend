@@ -59,6 +59,19 @@
             </div>
           </div>
         </div>
+
+        <!-- TX History Card -->
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Transaction History</h5>
+                <!-- Placeholder for TX History -->
+                <p>Transaction History (API not integrated yet)</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
